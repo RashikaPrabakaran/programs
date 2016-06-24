@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a;
 printf("enter a number");
@@ -8,4 +8,5 @@ if(a%2==0)
 printf("%d is a even number",a);
 else
 printf("%d is an odd number",a);
+return 0;
 }
